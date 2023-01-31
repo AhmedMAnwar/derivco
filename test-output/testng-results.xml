@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-01-31T12:56:46 CET" name="Regression suite" finished-at="2023-01-31T12:56:51 CET" duration-ms="5765">
+    <groups>
+    </groups>
+    <test started-at="2023-01-31T12:56:46 CET" name="Ingrediants Tests" finished-at="2023-01-31T12:56:49 CET" duration-ms="2805">
+      <class name="derivco.IngredientTests">
+        <test-method is-config="true" signature="setupConfiguartion()[pri:0, instance:derivco.IngredientTests@15bbf42f]" started-at="2023-01-31T12:56:46 CET" name="setupConfiguartion" finished-at="2023-01-31T12:56:46 CET" duration-ms="320" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupConfiguartion -->
+        <test-method signature="isIngrediantNonAlcholAndNonAbv()[pri:1, instance:derivco.IngredientTests@15bbf42f]" started-at="2023-01-31T12:56:46 CET" name="isIngrediantNonAlcholAndNonAbv" description="Veryfing if the ingrediant is non-alcohol and non ABV" finished-at="2023-01-31T12:56:48 CET" duration-ms="1633" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isIngrediantNonAlcholAndNonAbv -->
+        <test-method signature="isIngrediantAlcholAndAbv()[pri:2, instance:derivco.IngredientTests@15bbf42f]" started-at="2023-01-31T12:56:48 CET" name="isIngrediantAlcholAndAbv" description="Veryfing if the ingrediant is alcohol and ABV" finished-at="2023-01-31T12:56:48 CET" duration-ms="316" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isIngrediantAlcholAndAbv -->
+        <test-method signature="isIngrediantResponceNull()[pri:3, instance:derivco.IngredientTests@15bbf42f]" started-at="2023-01-31T12:56:48 CET" name="isIngrediantResponceNull" description="Veryfing if the ingrediant name is invalid" finished-at="2023-01-31T12:56:48 CET" duration-ms="224" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isIngrediantResponceNull -->
+        <test-method signature="isIngrediantWithExactIdGetReturned()[pri:4, instance:derivco.IngredientTests@15bbf42f]" started-at="2023-01-31T12:56:48 CET" name="isIngrediantWithExactIdGetReturned" description="Veryfing ingrediant with exact id" finished-at="2023-01-31T12:56:49 CET" duration-ms="286" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isIngrediantWithExactIdGetReturned -->
+      </class> <!-- derivco.IngredientTests -->
+    </test> <!-- Ingrediants Tests -->
+    <test started-at="2023-01-31T12:56:49 CET" name="Cocktail Tests" finished-at="2023-01-31T12:56:51 CET" duration-ms="2919">
+      <class name="derivco.CocktailNameTests">
+        <test-method is-config="true" signature="setupConfiguartion()[pri:0, instance:derivco.CocktailNameTests@4229bb3f]" started-at="2023-01-31T12:56:49 CET" name="setupConfiguartion" finished-at="2023-01-31T12:56:49 CET" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupConfiguartion -->
+        <test-method signature="isIngrediantResponceNull()[pri:1, instance:derivco.CocktailNameTests@4229bb3f]" started-at="2023-01-31T12:56:49 CET" name="isIngrediantResponceNull" description="Veryfing response when drink name is invalid" finished-at="2023-01-31T12:56:49 CET" duration-ms="222" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isIngrediantResponceNull -->
+        <test-method signature="isDrinkNameHasmultipleRecord()[pri:2, instance:derivco.CocktailNameTests@4229bb3f]" started-at="2023-01-31T12:56:49 CET" name="isDrinkNameHasmultipleRecord" description="Veryfing number of drinks for Margarita" finished-at="2023-01-31T12:56:49 CET" duration-ms="221" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isDrinkNameHasmultipleRecord -->
+        <test-method signature="isDrinkNameContainsProvidedValue()[pri:3, instance:derivco.CocktailNameTests@4229bb3f]" started-at="2023-01-31T12:56:49 CET" name="isDrinkNameContainsProvidedValue" description="Veryfing drink name has Margarita" finished-at="2023-01-31T12:56:49 CET" duration-ms="347" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isDrinkNameContainsProvidedValue -->
+        <test-method signature="areMandatoryFieldsNotNull()[pri:4, instance:derivco.CocktailNameTests@4229bb3f]" started-at="2023-01-31T12:56:49 CET" name="areMandatoryFieldsNotNull" description="Veryfing drink mandatory fields are not null" finished-at="2023-01-31T12:56:50 CET" duration-ms="990" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- areMandatoryFieldsNotNull -->
+        <test-method signature="areDrinksStartingWithLetterGetReturned()[pri:5, instance:derivco.CocktailNameTests@4229bb3f]" started-at="2023-01-31T12:56:50 CET" name="areDrinksStartingWithLetterGetReturned" description="Veryfing drinks start with provided letter" finished-at="2023-01-31T12:56:51 CET" duration-ms="904" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- areDrinksStartingWithLetterGetReturned -->
+        <test-method signature="isDrinkWithExactIdGetReturned()[pri:6, instance:derivco.CocktailNameTests@4229bb3f]" started-at="2023-01-31T12:56:51 CET" name="isDrinkWithExactIdGetReturned" description="Veryfing drink with exact id" finished-at="2023-01-31T12:56:51 CET" duration-ms="229" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isDrinkWithExactIdGetReturned -->
+      </class> <!-- derivco.CocktailNameTests -->
+    </test> <!-- Cocktail Tests -->
+  </suite> <!-- Regression suite -->
+</testng-results>

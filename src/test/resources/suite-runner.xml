@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Regression suite">
+	<test name="Ingrediants Tests">
+		<classes>
+			<class name="derivco.IngredientTests" />
+		</classes>
+	</test> <!-- Test -->
+		<test name="Cocktail Tests">
+		<classes>
+			<class name="derivco.CocktailNameTests" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
