@@ -17,15 +17,16 @@ public class CocktailNameTests extends Base {
     @Test(priority = 1, description = "Veryfing response when drink name is invalid")
     public void isIngrediantResponceNull() {
         drinkName = "invalidName";
-        searchAndReturnResponse("s", drinkName).then().statusCode(200)
-            .body(DrinkKeys.drinks.toString(), IsNull.nullValue());
+        searchAndReturnResponse("s", drinkName).then().assertThat()
+        .statusCode(200).body(DrinkKeys.drinks.toString(), IsNull.nullValue());
     }
 
     @Test(priority = 2, description = "Veryfing number of drinks for Margarita")
     public void isDrinkNameHasmultipleRecord() {
         drinkName = "Margarita";
         searchAndReturnResponse("s", drinkName).then().assertThat()
-            .body(DrinkKeys.drinks.toString() + ".size()", IsEqual.equalTo(6));
+            .statusCode(200).body(DrinkKeys.drinks.toString() + ".size()",
+                                  IsEqual.equalTo(6));
     }
 
     @Test(priority = 3, description = "Veryfing drink name has Margarita")
