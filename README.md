@@ -20,10 +20,16 @@
     ```
      maven clean test
     ```
-## Emilable report
+## Emilable Report
 - To find the emilable report follow the following path after cloning the repo locally
      ```
      /derivco/test-output/emailable-report.html
     ```
  - Figure to show the report view.
   ![image](https://user-images.githubusercontent.com/60217499/215907520-e70c7204-e863-4e80-bf84-c1b43ca31e41.png)
+  
+## Non Functional Tests Suggestion
+
+### Test Cases
+
+### Frameowrks
