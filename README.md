@@ -45,8 +45,8 @@
 4. Verfiy API response after uploading a huge data into DB.
 ### Frameworks
 - Performance Test
-1. JMeter.
-2. BlazeMeter.
-3. HP LoadRunner.
+  - JMeter.
+  - BlazeMeter.
+  - HP LoadRunner.
 - Portability Test
   - Can be included with the CI/CD process. For instance, after doing a DB upgrade process through CI/CD process, then the automated testes can be called as job after the success of DB upgrade to test Installability, Adaptability, Replaceability,  and Compatibility. CI/CD tools such as Jenkins, Circle CI/CD, AWS.
